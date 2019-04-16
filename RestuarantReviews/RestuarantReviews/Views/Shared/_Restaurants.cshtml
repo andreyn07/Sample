@@ -1,0 +1,12 @@
+﻿@model List<RestuarantReviews.Models.RestuarantListViewModel>
+<div id="restaurantList">
+
+
+    @foreach (var item in Model)
+    {
+        {
+
+            @Html.Partial("_Restaurant", item)
+        }
+    }
+</div>

@@ -1,0 +1,34 @@
+﻿@using RestuarantReviews.Helpers
+@model RestuarantReviews.Models.RestuarantListViewModel
+<div>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h3 class="panel-title">@Model.Name (@Model.CountOfReviews) - @Html.Ratings(Model.AverageScore) </h3>
+        </div>
+        <div class="panel-body">
+            <div class="col-sm-3">
+
+                <h1><b></b></h1>
+                <br />
+
+                <a class="thumbnail" href="@Url.Action("Index","RestuarantReviews",new {id=Model.Id })">
+                    
+                    <img class="img-responsive" src="@Model.ImageUrl"  />
+                </a>
+
+
+
+            </div>
+            <div class="col-sm-9">
+                <h3>@Model.Name</h3>
+                <br />
+                @Model.Address
+                <br />
+                <i>@Model.Phone</i>
+                <br />
+                <a>@Model.Website</a>
+            </div>
+        </div>
+
+    </div>
+</div>

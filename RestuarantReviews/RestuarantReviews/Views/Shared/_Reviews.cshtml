@@ -1,0 +1,11 @@
+﻿@using RestuarantReviews.Models
+@model RestuarantReviews.Core.RestuarantReview
+
+<div class="panel">
+    @*<h2>Best Review For</h2>*@
+    <h3 class="panel-title">@Model.Restuarant.Name @Model.Rating </h3>
+    <div class="panel-body">
+
+        @Model.Body
+    </div>
+</div>

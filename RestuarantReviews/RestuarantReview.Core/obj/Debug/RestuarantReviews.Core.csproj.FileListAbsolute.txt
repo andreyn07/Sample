@@ -1,0 +1,12 @@
+C:\Users\Acer Predator\Desktop\Development\Web\RestuarantReviews\RestuarantReview.Core\bin\Debug\RestuarantReviews.Core.dll
+C:\Users\Acer Predator\Desktop\Development\Web\RestuarantReviews\RestuarantReview.Core\bin\Debug\RestuarantReviews.Core.pdb
+C:\Users\Acer Predator\Desktop\Development\Web\RestuarantReviews\RestuarantReview.Core\obj\Debug\RestuarantReviews.Core.csproj.CoreCompileInputs.cache
+C:\Users\Acer Predator\Desktop\Development\Web\RestuarantReviews\RestuarantReview.Core\obj\Debug\RestuarantReviews.Core.dll
+C:\Users\Acer Predator\Desktop\Development\Web\RestuarantReviews\RestuarantReview.Core\obj\Debug\RestuarantReviews.Core.pdb
+C:\Users\Acer Predator\Desktop\Development\Web\RestuarantReviews\RestuarantReview.Core\obj\Debug\RestuarantReviews.Core.csprojAssemblyReference.cache
+C:\Users\nazar\Documents\Andrey's Stuff\School\RestuarantReviews\RestuarantReview.Core\bin\Debug\RestuarantReviews.Core.dll
+C:\Users\nazar\Documents\Andrey's Stuff\School\RestuarantReviews\RestuarantReview.Core\bin\Debug\RestuarantReviews.Core.pdb
+C:\Users\nazar\Documents\Andrey's Stuff\School\RestuarantReviews\RestuarantReview.Core\obj\Debug\RestuarantReviews.Core.csprojAssemblyReference.cache
+C:\Users\nazar\Documents\Andrey's Stuff\School\RestuarantReviews\RestuarantReview.Core\obj\Debug\RestuarantReviews.Core.csproj.CoreCompileInputs.cache
+C:\Users\nazar\Documents\Andrey's Stuff\School\RestuarantReviews\RestuarantReview.Core\obj\Debug\RestuarantReviews.Core.dll
+C:\Users\nazar\Documents\Andrey's Stuff\School\RestuarantReviews\RestuarantReview.Core\obj\Debug\RestuarantReviews.Core.pdb
