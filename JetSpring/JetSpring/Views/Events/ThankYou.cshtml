@@ -1,0 +1,27 @@
+﻿@model JetSpring.Models.Event
+
+@{
+    ViewBag.Title = "ThankYou";
+}
+<br />
+
+    <p hidden>
+            @ViewBag.userID
+            @Model.EventName
+
+    </p>
+        
+    <div class="jumbotron text-xs-center">
+        <h1 class="display-3">Thank You!</h1>
+        <p class="lead"><strong>We appritiate</strong> you for joining our event.</p>
+        <hr>
+        <div>
+           Your choice has been recorded.
+        </div>
+        <br /><br />
+
+        <p class="lead">
+            <a class="btn btn-primary btn-sm" href="/Events/Index" role="button">Back to list</a>
+        </p>
+    </div>
+

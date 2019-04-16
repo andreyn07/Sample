@@ -1,0 +1,51 @@
+﻿@model JetSpring.Models.Event
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2> Event Details</h2>
+<br /><br />
+<div>
+    
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            Event Name
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EventName)
+        </dd>
+
+        <dt>
+            Event Description
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EventDescription)
+        </dd>
+
+        <dt>
+           Start Date
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.StartDate)
+        </dd>
+
+        <dt>
+            Duration
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Duration)
+        </dd>
+
+    </dl>
+</div>
+<br /><br />
+<p>
+    @Html.ActionLink("Join", "ThankYou", new { id = Model.Id }) |
+    @Html.ActionLink("Cancel", "Index")
+</p>

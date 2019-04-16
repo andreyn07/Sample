@@ -1,0 +1,63 @@
+﻿@using JetSpring.Models
+@model LoginViewModel
+@{
+    ViewBag.Title = "Log in";
+}
+
+
+<head>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<div class="wrapper fadeInDown">
+
+    <div id="formContent">
+        <div class="fadeIn first">
+            <img src="~/Images/rsvp-png-3.png" id="icon" alt="User Icon" style="width: 300px; height: 150px;" />
+        </div>
+
+        <link href="~/Content/Login.css" rel="stylesheet" />
+        <br />
+        <section id="loginForm">
+            @using (Html.BeginForm("Login", "Account", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+            {
+                @Html.AntiForgeryToken()
+                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                <div class="form-group">
+
+
+                    @Html.TextBoxFor(m => m.Email, new { @class = "form-control fadeIn third", @placeholder = "Email" })<br />
+                    @Html.ValidationMessageFor(m => m.Email, "", new { @class = "text-danger" })
+
+
+                </div>
+                <div class="form-group">
+
+                    @Html.PasswordFor(m => m.Password, new { @class = "form-control fadeIn third", @placeholder = "Password" })<br />
+                    @Html.ValidationMessageFor(m => m.Password, "", new { @class = "text-danger" })
+
+
+                </div>
+
+                <div class="form-group">
+                    <input type="submit" value="Log in" class=" btn btn-default" />
+                </div>
+            }
+        </section>
+
+        <div id="formFooter">
+            @Html.ActionLink("Forgot your password?", "ForgotPassword")
+            <br /><br />
+            @Html.ActionLink("Register as a new user", "Register")
+
+        </div>
+
+    </div>
+    <br /><br />
+</div>
+    
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
